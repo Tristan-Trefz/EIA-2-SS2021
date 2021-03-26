@@ -1,5 +1,4 @@
 namespace Zufallsgedicht {
-    //console.log("Hallo, du oller Hobbit");
 
     let subject: string[] = ["Hamilton", "Verstappen", "Vettel", "Sainz", "Alonso", "Raikkonen"];
     let predicate: string[] = ["ueberholt", "verteidigt gegen", "kollidiert mit", "hasst", "wird ueberholt von", "vernichtet"];
