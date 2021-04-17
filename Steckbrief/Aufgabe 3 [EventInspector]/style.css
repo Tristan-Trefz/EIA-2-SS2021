@@ -1,0 +1,29 @@
+section {
+    height:80vh;
+    width: 80vw;
+}
+
+#div0 {
+    float: right;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    width: 45%;
+    height: 80%;
+}
+
+#div1 {
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    width: 45%;
+    height: 80%;
+}
+
+span {
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+}
