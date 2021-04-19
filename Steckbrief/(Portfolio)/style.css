@@ -1,0 +1,176 @@
+body{
+    background-image:url("Resources/bg.png") ;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none; 
+    color:#ffffff;
+}
+
+nav{
+    z-index: 1;
+    background-color:  #000000;
+    border-radius: 0px 0px 10px 10px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+}
+
+a:hover{
+    color: crimson;    
+}
+
+.welcome{
+    opacity: 0.7;
+}
+
+#intro{
+    position: relative;
+    text-align: left;
+    bottom: 260px;
+    width: 400px;
+}
+
+#facebook{
+    width: fit-content;
+    position: relative;
+    bottom: 180px;
+    right: 230px;
+}
+
+#facebook:hover{
+    width: fit-content;
+    position: relative;
+    bottom: 190px;
+    right: 230px;
+}
+
+#IG{
+    width: fit-content;
+    position: relative;
+    bottom: 175px;
+    right: 230px;
+}
+
+#IG:hover{
+    width: fit-content;
+    position: relative;
+    bottom: 185px;
+    right: 230px;
+}
+
+#home{
+    color:  #00a9c8;
+}
+
+#portfolio{
+    color: #00a9c8;
+}
+
+#article{
+    position: relative;
+    bottom: 340px;
+}
+
+#aboutme{
+    color: #00a9c8;
+}
+
+#contact{
+    color: #00a9c8;
+}
+
+h1{
+    color:white;
+    background-color: #00aac846;
+    text-align: left;
+    margin-left: 420px;
+    padding-left: 10px;
+    padding: 10px 10px 50px 10px;
+    font-size: 1.4em;
+}
+
+#wide{
+    color:white;
+    background-color: #00aac846;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding: 10px 10px 50px 10px;
+    font-size: 1.4em;
+}
+
+.Width{
+    width: 800px;
+}
+
+.left{
+    float: left;
+    margin-top: 24px;
+    background-color: #00aac84f;
+}
+
+.right{
+    float: right;
+    margin-top: 24px;
+    background-color:  #00aac84f;
+}
+
+section{
+    width: fit-content;
+}
+
+#text{
+    width: 410px;
+    padding: 20px;
+    background-color: #00aac84f;
+}
+
+.Up{
+    position: relative;
+    bottom: 340px;
+    width: 810px;
+}
+
+.Up2{
+    position: relative;
+    bottom: 268px;
+    width: 800px;
+}
+
+.Up3{
+    position: relative;
+    bottom: 150px;
+    width: 800px;
+}
+
+#firstname{
+    border-color: crimson;
+    background-color: #00aac869;
+}
+
+#surname{
+    border-color: crimson;
+    background-color: #00aac869;
+}
+
+#email{
+    border-color: crimson;
+    background-color: #00aac869;
+}
+
+#subject{
+    border-color: crimson;
+    width: 400px;
+    background-color: #00aac869;
+}
+
+.crimson{
+    background-color: rgba(220, 20, 60, 0.219);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
