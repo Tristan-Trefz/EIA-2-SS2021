@@ -1,0 +1,47 @@
+.inv {
+    display: none;
+}
+
+.radio {
+    display: inline;
+}
+
+span {
+    float: right;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+#form {
+    width: 600px;
+    height: fit-content;
+}
+fieldset {
+    width: 400px;
+    float: left;
+}
+
+#start {
+    width: 80px;
+    height: 40px;
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#end {
+    width: 80px;
+    height: 40px;
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#board {
+    display: flex;
+}

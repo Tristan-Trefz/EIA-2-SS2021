@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Memory Game</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<script src="script.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<center>
+<body>
+	<style>
+
+	</style>
+
+<header>
+	<h1>Memory Game</h1>
+
+	<div id="start">Start</div>
+	<div id="end">End</div>
+</header>	
+<br>
+<form>
+	<div id="form">
+		<Span></Span>
+			<fieldset>
+				<legend>Kartenpaare</legend>
+					<input type="number" name="pairs" step="1" min="5" max="25" value="5">
+			</fieldset>
+			<fieldset>
+				<legend>Größe</legend>
+				<input type="range" name="size" min="50" max="150" step="25" value="150">
+			</fieldset>
+			<fieldset>
+				<legend>Farbe</legend>
+				Karte: <input type="color" name="cColor">
+				Schrift: <input type="color" name="color">
+				Hintergrund: <input type="color" name="bgColor">
+			</fieldset>
+			<fieldset>
+				<legend>Schrift</legend>
+				<div class="radio">
+					<input type="radio" id="Arial" name="font" value="Arial" checked>
+					<label for="Arial">Arial</label>
+				</div>
+				<div class="radio">
+					<input type="radio" id="TNR" name="font" value="Times New Roman">
+					<label for="TNR">Times New Roman</label>
+				</div>
+				<div class="radio">
+					<input type="radio" id="helvetica" name="font" value="Helvetica">
+					<label for="Arial">Helvetica</label>
+				</div>
+			</fieldset>
+	</div>
+</form>
+
+<div id="board">
+
+</div>
+
+</body>
+</center>
+</html>
