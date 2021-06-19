@@ -1,4 +1,4 @@
-namespace Wiese  {
+namespace Nektar  {
 
     export class Cloud extends Movable {
 
@@ -6,7 +6,7 @@ namespace Wiese  {
             super(_position, _velocity);
         }
 
-        draw(): void {
+        public draw(): void {
 
             crc2.save();
             crc2.translate(this.posX, this.posY);
@@ -29,7 +29,7 @@ namespace Wiese  {
             crc2.restore();
         }
 
-        update(): void {
+        public update(): void {
            
             if (this.posX > crc2.canvas.width || this.posX < 0) {
                 this.velocityX = -this.velocityX;

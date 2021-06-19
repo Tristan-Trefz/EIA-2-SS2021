@@ -1,4 +1,4 @@
-namespace Wiese {
+namespace Nektar {
 
     window.addEventListener("load", handleLoad);
 
@@ -49,6 +49,8 @@ namespace Wiese {
             xPos += 10 + Math.random() * (50 - 10);
         }
         while (xPos < crc2.canvas.width);
+
+        console.log(flowers);
     }
 
     function createBees (_nBee: number): void {
@@ -70,10 +72,15 @@ namespace Wiese {
 
         crc2.clearRect(0, 0, crc2.canvas.width, crc2.canvas.height);
         crc2.putImageData(imageData, 0, 0);
+        for (let index: number = 0; index < flowers.length; index ++) {
+            flowers[index].updateNectar();
+        }
 
         for (let index: number = 0; index < movables.length; index ++) {
             movables[index].update();
             movables[index].draw();
         }
+
+       
     }
 }

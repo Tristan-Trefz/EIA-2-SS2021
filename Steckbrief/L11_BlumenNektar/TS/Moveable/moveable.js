@@ -1,6 +1,11 @@
-var Wiese;
-(function (Wiese) {
+"use strict";
+var Nektar;
+(function (Nektar) {
     class Movable {
+        posX;
+        posY;
+        velocityX;
+        velocityY;
         constructor(_position, _velocity) {
             this.posX = _position.x;
             this.posY = _position.y;
@@ -14,6 +19,6 @@ var Wiese;
             //Update
         }
     }
-    Wiese.Movable = Movable;
-})(Wiese || (Wiese = {}));
+    Nektar.Movable = Movable;
+})(Nektar || (Nektar = {}));
 //# sourceMappingURL=moveable.js.map

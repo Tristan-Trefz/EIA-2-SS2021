@@ -1,4 +1,4 @@
-namespace Wiese  {
+namespace Nektar  {
 
     export interface Vector {
         x: number;

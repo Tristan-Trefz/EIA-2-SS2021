@@ -1,11 +1,11 @@
-namespace Wiese {
+namespace Nektar {
     
-export class Movable {
-    posX: number;
-    posY: number;
+export abstract class Movable {
+    protected posX: number;
+    protected posY: number;
 
-    velocityX: number;
-    velocityY: number;
+    protected velocityX: number;
+    protected velocityY: number;
 
     constructor(_position: Vector, _velocity: Vector) {
           this.posX = _position.x; 
@@ -15,11 +15,11 @@ export class Movable {
           this.velocityY = _velocity.y;
     }
 
-    draw(): void {
+    public draw(): void {
         //Draw
     }
 
-    update(): void {
+    public update(): void {
         //Update
     }
 }

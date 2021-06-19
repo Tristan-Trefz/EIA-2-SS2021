@@ -1,17 +1,17 @@
-namespace Wiese {
+namespace Nektar {
 
     export class Bee extends Movable {
 
-        randomScale: number;
-        randomNumber: number = (Math.floor(Math.random() * 2000) + 1000);
-        counter: number = 0;
+        private randomScale: number;
+        private randomNumber: number = (Math.floor(Math.random() * 2000) + 1000);
+        private counter: number = 0;
 
         constructor( _position: Vector, _velocity: Vector, _randomScale: number) {
             super(_position, _velocity);
             this.randomScale = _randomScale;
         }
 
-        draw(): void {
+        public draw(): void {
            
             crc2.save();
             crc2.translate(this.posX, this.posY);
@@ -48,7 +48,7 @@ namespace Wiese {
             crc2.restore();
         }
 
-        update(): void {
+        public update(): void {
 
             if (this.posX > crc2.canvas.width || this.posX < 0) {
                 this.velocityX = -this.velocityX;
