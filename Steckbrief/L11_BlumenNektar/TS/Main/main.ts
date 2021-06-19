@@ -1,3 +1,6 @@
+//Konzept und Code zu L11.1_BlumenwieseAdvanced in zusammenarbeit mit Huu-Thien Phan-Ngoc ausgearbeitet.
+//Da ich die Aufgabe L10.2_BlumenwiesePolymorphie nur konzepiert und nicht ungesetzt habe, haben wir Huu-Thiens Code und Konzept als ausgangspunkt genommen.
+
 namespace Nektar {
 
     window.addEventListener("load", handleLoad);
