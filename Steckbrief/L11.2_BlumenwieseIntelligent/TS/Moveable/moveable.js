@@ -1,17 +1,9 @@
-"use strict";
 var End;
 (function (End) {
     class Movable {
-        beeDoingJob = false;
-        task = End.Task.flyAround;
-        flowerIndex;
-        posX;
-        posY;
-        xFlowerTarget;
-        yFlowerTarget;
-        velocityX;
-        velocityY;
         constructor(_position, _velocity) {
+            this.beeDoingJob = false;
+            this.task = End.Task.flyAround;
             this.posX = _position.x;
             this.posY = _position.y;
             this.velocityX = _velocity.x;

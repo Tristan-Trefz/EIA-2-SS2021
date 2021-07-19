@@ -1,4 +1,3 @@
-"use strict";
 var Nektar;
 (function (Nektar) {
     class Cloud extends Nektar.Movable {

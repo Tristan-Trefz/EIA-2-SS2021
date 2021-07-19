@@ -1,11 +1,6 @@
-"use strict";
 var Nektar;
 (function (Nektar) {
     class Movable {
-        posX;
-        posY;
-        velocityX;
-        velocityY;
         constructor(_position, _velocity) {
             this.posX = _position.x;
             this.posY = _position.y;

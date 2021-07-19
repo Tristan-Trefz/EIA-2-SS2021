@@ -1,4 +1,3 @@
-"use strict";
 var End;
 (function (End) {
     window.addEventListener("load", handleLoad);

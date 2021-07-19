@@ -1,4 +1,5 @@
-"use strict";
+//Konzept und Code zu L11.1_BlumenwieseAdvanced in zusammenarbeit mit Huu-Thien Phan-Ngoc ausgearbeitet.
+//Da ich die Aufgabe L10.2_BlumenwiesePolymorphie nur konzepiert und nicht ungesetzt habe, haben wir Huu-Thiens Code und Konzept als ausgangspunkt genommen.
 var Nektar;
 (function (Nektar) {
     window.addEventListener("load", handleLoad);
@@ -58,7 +59,7 @@ var Nektar;
         Nektar.crc2.clearRect(0, 0, Nektar.crc2.canvas.width, Nektar.crc2.canvas.height);
         Nektar.crc2.putImageData(imageData, 0, 0);
         for (let index = 0; index < flowers.length; index++) {
-            flowers[index].update();
+            flowers[index].updateNectar();
         }
         for (let index = 0; index < movables.length; index++) {
             movables[index].update();

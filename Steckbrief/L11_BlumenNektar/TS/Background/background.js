@@ -1,4 +1,3 @@
-"use strict";
 var Nektar;
 (function (Nektar) {
     function drawBackground() {
